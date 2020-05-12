@@ -1,3 +1,1 @@
-
-name="pello/pello"
-__version__ = "1.0.0"
+from pello.pello_greeting import greeting
