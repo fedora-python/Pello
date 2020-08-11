@@ -12,7 +12,7 @@ setuptools.setup(
     description="An example Python Hello World package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/hrnciar/pello",
+    url="https://github.com/fedora-python/Pello",
     license="CC0",
     packages=setuptools.find_packages(),
     classifiers=[
