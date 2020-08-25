@@ -2,3 +2,13 @@
 # Minimum requirements for the build system to execute.
 requires = ["setuptools", "wheel"]  # PEP 508 specifications.
 build-backend = "setuptools.build_meta"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py36, py37, py38, py39
+
+[testenv]
+deps = pytest >= 3.0.0
+commands = pytest
+"""
