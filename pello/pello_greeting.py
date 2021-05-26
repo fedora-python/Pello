@@ -5,4 +5,3 @@ def greeting():
         print(term.green + term.bold + "Hello World!" + term.normal)
     except ImportError:
         print("Hello World!")
-
