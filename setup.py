@@ -14,6 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/fedora-python/Pello",
     license="CC0",
+    license_files=["LICENSE.txt"],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
