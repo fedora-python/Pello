@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Pello",
-    version="1.0.2",
+    version="1.0.3",
     author="Tomáš Hrnčiar",
     author_email="tomas.hrnciar@me.com",
     description="An example Python Hello World package",
