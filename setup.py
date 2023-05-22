@@ -6,19 +6,19 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Pello",
-    version="1.0.3",
+    version="1.0.4",
     author="Tomáš Hrnčiar",
     author_email="tomas.hrnciar@me.com",
     description="An example Python Hello World package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/fedora-python/Pello",
-    license="CC0",
+    license="MIT-0",
     license_files=["LICENSE.txt"],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
         "Operating System :: OS Independent",
     ],
     zip_safe=False,
